@@ -183,8 +183,8 @@ button {
 }
 
 .next {
-  position: absolute; /* Cambia a 'absolute' para posicionamiento relativo a su contenedor */
-  right: 0px; /* Posición relativa al borde derecho del contenedor */
+  position: absolute; /* Posiciona el botón relativo a su contenedor */
+  right: 0; /* Pega el botón al borde derecho del contenedor */
   top: 50%; /* Centro verticalmente */
   transform: translateY(-50%); /* Ajusta la posición vertical para centrar completamente */
   background-color: rgba(0, 0, 0, 0.5);
@@ -192,7 +192,7 @@ button {
   padding: 10px;
   border: none;
   outline: none;
-  cursor: pointer; /* Añade cursor de pointer para indicar que es clickeable */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
   transition: background-color 0.3s;
 }
 
