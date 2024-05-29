@@ -184,7 +184,7 @@ button {
 
 .next {
   position: absolute; /* Posiciona el botón relativo a su contenedor */
-  right: 990px; /* Ajusta este valor para mover el botón más a la derecha */
+  right: -20px; /* Ajusta este valor para mover el botón más a la derecha */
   top: 50%; /* Centro verticalmente */
   transform: translateY(-50%); /* Ajusta la posición vertical para centrar completamente */
   background-color: rgba(0, 0, 0, 0.5);
