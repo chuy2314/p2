@@ -184,7 +184,7 @@ button {
 
 .next {
    position: relative;
-  left: calc(980% + 990px); /* Calcula la posición respecto al 100% del ancho de su contenedor más un margen */
+  left: calc(1000% + 1000px); /* Calcula la posición respecto al 100% del ancho de su contenedor más un margen */
   top: -50%; /* Para mantenerlo centrado verticalmente */
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
