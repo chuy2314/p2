@@ -183,16 +183,21 @@ button {
 }
 
 .next {
-   position: relative;
-  left: calc(1000% + 1000px); /* Calcula la posición respecto al 100% del ancho de su contenedor más un margen */
-  top: -50%; /* Para mantenerlo centrado verticalmente */
+  position: absolute; /* Cambia a 'absolute' para posicionamiento relativo a su contenedor */
+  right: 10px; /* Posición relativa al borde derecho del contenedor */
+  top: 50%; /* Centro verticalmente */
+  transform: translateY(-50%); /* Ajusta la posición vertical para centrar completamente */
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 10px;
   border: none;
   outline: none;
+  cursor: pointer; /* Añade cursor de pointer para indicar que es clickeable */
   transition: background-color 0.3s;
+}
 
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Cambia el color de fondo en hover */
 }
 
 .image-indicator {
